@@ -17,7 +17,7 @@ cout << p[i] << ", ";
 cout << endl;
 delete[] p;
 return 0;
-}*/
+*/
 //p.353 no.2
 	int length;
 	cout << "얼마나 많은 이름을 입력 하시겠습니까? ";
