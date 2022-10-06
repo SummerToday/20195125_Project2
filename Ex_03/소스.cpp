@@ -4,32 +4,33 @@ using namespace std;
 int main()
 { //p.353 no.1
 /*int num;
-cout << "¸î °³ÀÇ Á¤¼ö¸¦ ÀÔ·ÂÇÕ´Ï±î? ";
+cout << "ëª‡ ê°œì˜ ì •ìˆ˜ë¥¼ ìž…ë ¥í•©ë‹ˆê¹Œ? ";
 cin >> num;
 int* p = new int[num];
 for (int i = 0; i < num; i++) {
-cout << "Á¤¼ö¸¦ ÀÔ·ÂÇÏ½Ã¿À : ";
+cout << "ì •ìˆ˜ë¥¼ ìž…ë ¥í•˜ì‹œì˜¤ : ";
 cin >> p[i];
 }
-cout << "ÀÔ·ÂµÈ Á¤¼ö´Â: ";
+cout << "ìž…ë ¥ëœ ì •ìˆ˜ëŠ”: ";
 for (int i = 0; i < num; i++)
 cout << p[i] << ", ";
 cout << endl;
 delete[] p;
-return 0;*/
+return 0;
+}*/
 //p.353 no.2
 	int length;
-	cout << "¾ó¸¶³ª ¸¹Àº ÀÌ¸§À» ÀÔ·Â ÇÏ½Ã°Ú½À´Ï±î? ";
+	cout << "ì–¼ë§ˆë‚˜ ë§Žì€ ì´ë¦„ì„ ìž…ë ¥ í•˜ì‹œê² ìŠµë‹ˆê¹Œ? ";
 	cin >> length;
 	string* names = new string[length];
 	for (int i = 0; i < length; i++) {
-		cout << "ÀÌ¸§ ÀÔ·Â # " << i + 1 << ": ";
+		cout << "ì´ë¦„ ìž…ë ¥ # " << i + 1 << ": ";
 		cin >> names[i];
 	}
 	cout << endl;
-	cout << "´ÙÀ½Àº ÀÌ¸§ ¸ñ·ÏÀÔ´Ï´Ù." << endl;
+	cout << "ë‹¤ìŒì€ ì´ë¦„ ëª©ë¡ìž…ë‹ˆë‹¤." << endl;
 	for (int i = 0; i < length; i++)
-		cout << "ÀÌ¸§ #" << i + 1 << ": " << names[i] << endl;
+		cout << "ì´ë¦„ #" << i + 1 << ": " << names[i] << endl;
 	delete[] names;
 	return 0;
 }
